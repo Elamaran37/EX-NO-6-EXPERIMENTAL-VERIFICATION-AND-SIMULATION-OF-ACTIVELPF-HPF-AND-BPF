@@ -1,30 +1,24 @@
 # EX-NO-6-EXPERIMENTAL-VERIFICATION-AND-SIMULATION-OF-ACTIVELPF-HPF-AND-BPF
 ## 6 DESIGN OF ACTIVE LOW PASS, HIGH PASS AND BAND PASS FILTERS USING OP-AMP
             
-**DATE:**  
+**DATE:A.27/09/2025,B.04/10/2025,C.11/10/2025**  
          
 ---
+## AIM:
 
-## AIM
-            
-**DATE:**  
-         
----
-
-## AIM and obtain the frequency response of
+To obtain the frequency response of
 
 i)	First order Low Pass Filter (LPF)
 ii)	First order High Pass Filter (HPF)
-iii)	Band pass filter
+iii) Band pass filter
 
 ---
 
-** 6 A :- LOW PASS FILTER**
+## ** 6 A : LOW PASS FILTER**
 
 
 
 ## THEORY
-## LOW PASS FILTER
 A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain is 0.707 Amax, and after fH gain decreases at a constant rate with an increase in frequency. The gain decreases 20dB each time the frequency is increased by 10. Hence the rate at which the gain rolls off after fH is 20dB/decade or 6 dB/ octave, where octave signifies a two fold increase in frequency. The frequency f=fH is called the cut off frequency because the gain of the filter at this frequency is down by 3 dB from 0 Hz. Other equivalent terms for cut-off frequency are -3dB frequency, break frequency, or corner frequency.
 ## APPARATUS REQUIRED
 
@@ -41,6 +35,9 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 ---
 ## CIRCUIT DIAGRAM
 <img width="836" height="455" alt="image" src="https://github.com/user-attachments/assets/e5181151-836f-4f80-8f56-53b23ff05c74" />
+### SIMULATION CIRCUIT DIAGRAM:
+<img width="1915" height="1079" alt="Screenshot 2025-11-13 181017" src="https://github.com/user-attachments/assets/9889ced3-ecda-4995-affe-0e7690553d93" />
+
 
 
 ## MODEL GRAPH
@@ -50,7 +47,7 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ## DESIGN
 
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
+Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.01 µF, R = 16 KΩ
 For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
 Transfer function of second order butterworth LPF as:
 1.586
@@ -75,35 +72,22 @@ PROCEDURE - (LPF):
 
 
 ## TABULATION
-
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
-		
-
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/5bd6f2d8-c1ee-4450-9d89-b47ca89e4feb" />
+	
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/063c9b63-8c7a-4914-8ada-cd146f23fa45" />
+### SIMULATION OUTPUT
+<img width="1915" height="1078" alt="Screenshot 2025-11-13 181004" src="https://github.com/user-attachments/assets/5cdfe186-5fc6-4d7e-9f0d-2db70cafc52f" />
 
 ---
 
- ## 6 B HIGH PASS FILTER
+ ## **6B HIGH PASS FILTER**
 
 ---
 
 ## THEORY
-HIGH PASS FILTER
 A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain is 0.707 Amax, and after fH gain decreases at a constant rate with an increase in frequency. The gain decreases 20dB each time the frequency is increased by 10. Hence the rate at which the gain rolls off after fH is 20dB/decade or 6 dB/ octave, where octave signifies a two fold increase in frequency. The frequency f=fH is called the cut off frequency because the gain of the filter at this frequency is down by 3 dB from 0 Hz. Other equivalent terms for cut-off frequency are -3dB frequency, break frequency, or corner frequency.
 
 
@@ -121,8 +105,10 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 
 ## CIRCUIT DIAGRAM
-
 <img width="887" height="486" alt="image" src="https://github.com/user-attachments/assets/907a1395-28d4-406f-ac09-96c4e060587e" />
+### SIMULATION CIRCUIT DIAGRAM:
+<img width="1917" height="1079" alt="Screenshot 2025-11-21 201952" src="https://github.com/user-attachments/assets/563abff0-a1ac-44ea-a583-e1d8e1de6779" />
+
 
 
 ## MODEL GRAPH
@@ -133,7 +119,7 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ## DESIGN
 
-Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
+Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.01 µF, R = 16 KΩ
 For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
 Transfer function of second order butterworth LPF as:
 1.586
@@ -158,35 +144,23 @@ PROCEDURE - ( HPF):
 
 
 ## TABULATION
-
-		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/53bfbe50-d2b3-4773-90c2-3bd99460daf5" />
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d968fb1f-90bd-4df3-9291-e1e71f411d9d" />
+### SIMULATION OUTPUT:
+<img width="1915" height="1076" alt="Screenshot 2025-11-21 202215" src="https://github.com/user-attachments/assets/1d18d5fc-7bd1-41c3-be67-df072b360b6b" />
+
 
 ---
 
- ## 6C Band Pass Filter
+ ## **6C Band Pass Filter**
 
 ---
 
 ## THEORY
- ##Band Pass Filter
 A BPF allows frequencies in between lower cut of frequency and higher cut of frequency, fH-fL. A band-pass (BP) filter passes frequencies in a band fL_fH and attenuates below fL and above fH.. The gain decreases 20dB each time the frequency is increased by 10. Hence the rate at which the gain rolls off after fH is 20dB/decade or 6 dB/ octave, where octave signifies a two fold increase in frequency. The frequency f=fH is called the cut off frequency because the gain of the filter at this frequency is down by 3 dB from 0 Hz. Other equivalent terms for cut-off frequency are -3dB frequency, break frequency, or corner frequency.
 
 
@@ -204,8 +178,9 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 
 
 ## CIRCUIT DIAGRAM
-
 <img width="1068" height="446" alt="image" src="https://github.com/user-attachments/assets/ee37b95a-05ea-448c-9102-111e071e41e8" />
+### SIMULATION CIRCUIT DIAGRAM:
+<img width="795" height="415" alt="Screenshot 2025-11-13 214100" src="https://github.com/user-attachments/assets/a6932d2c-f440-4658-a738-cf2553becafc" />
 
 ## MODEL GRAPH
 
@@ -245,24 +220,15 @@ PROCEDURE:BAND PASS FILTER
 ## TABULATION
 
 		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/fbbe2bc9-b00d-489c-95fa-3c83adec4711" />
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-21 at 18 49 20](https://github.com/user-attachments/assets/de8ecaed-0498-4892-9ec4-2df302fd55e7)
+### SIMULATION OUTPUT
+<img width="784" height="339" alt="Screenshot 2025-11-13 214215" src="https://github.com/user-attachments/assets/659079bd-2bd0-4c13-bf85-3e52f99dce15" />
+
 
 ---
 ##RESULT:
