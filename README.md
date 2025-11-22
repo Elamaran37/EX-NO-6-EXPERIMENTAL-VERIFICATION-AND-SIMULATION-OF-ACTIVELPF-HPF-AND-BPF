@@ -29,12 +29,14 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 | 3 | Dual RPS | (0 – 30) V | 1 |
 | 4 | Op-Amp | µA741 | 2 |
 | 5 | Bread Board | — | 1 |
-| 6 | Resistors | 1.6K,10K,0.1 µF | 1 |
-| 7 | Connecting wires and probes | As required | — |
+| 6 | Resistors | 16K,10K,5.86K | 1 |
+| 7 | Capacitor | 0.01uF | 3 |
+| 8 | Connecting wires and probes | As required | — |
 
 ---
 ## CIRCUIT DIAGRAM
-<img width="836" height="455" alt="image" src="https://github.com/user-attachments/assets/e5181151-836f-4f80-8f56-53b23ff05c74" />
+![WhatsApp Image 2025-11-21 at 18 49 30](https://github.com/user-attachments/assets/37dd640d-76a5-4ef0-8de5-a362d7c71c3c)
+
 ### SIMULATION CIRCUIT DIAGRAM:
 <img width="1915" height="1079" alt="Screenshot 2025-11-13 181017" src="https://github.com/user-attachments/assets/9889ced3-ecda-4995-affe-0e7690553d93" />
 
@@ -100,12 +102,14 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 | 3 | Dual RPS | (0 – 30) V | 1 |
 | 4 | Op-Amp | µA741 | 2 |
 | 5 | Bread Board | — | 1 |
-| 6 | Resistors | 1.6K,10K,5.86K, 0.1 µF | 1 |
-| 7 | Connecting wires and probes | As required | — |
+| 6 | Resistors | 16K,10K,5.86K | 1 |
+| 7 | Capacitor | 0.01uF | 1 |
+| 8 | Connecting wires and probes | As required | — |
 
 
 ## CIRCUIT DIAGRAM
-<img width="887" height="486" alt="image" src="https://github.com/user-attachments/assets/907a1395-28d4-406f-ac09-96c4e060587e" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/948b2f9d-1286-47c9-9523-f757320e1f11" />
+
 ### SIMULATION CIRCUIT DIAGRAM:
 <img width="1917" height="1079" alt="Screenshot 2025-11-21 201952" src="https://github.com/user-attachments/assets/563abff0-a1ac-44ea-a583-e1d8e1de6779" />
 
@@ -173,12 +177,14 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 | 3 | Dual RPS | (0 – 30) V | 1 |
 | 4 | Op-Amp | µA741 | 2 |
 | 5 | Bread Board | — | 1 |
-| 6 | Resistors |10K,38.8K,7.9K,0.01uf | 1 |
+| 6 | Resistors |10K,38.8K,7.9K | 1 |
+| 7 | Capaciotr | 0.1uF | 1 |
 | 7 | Connecting ires and probes | As required | — |
 
 
 ## CIRCUIT DIAGRAM
-<img width="1068" height="446" alt="image" src="https://github.com/user-attachments/assets/ee37b95a-05ea-448c-9102-111e071e41e8" />
+![WhatsApp Image 2025-11-22 at 10 48 43](https://github.com/user-attachments/assets/597aee28-ddc7-40d0-927f-fb9695599a08)
+
 ### SIMULATION CIRCUIT DIAGRAM:
 <img width="795" height="415" alt="Screenshot 2025-11-13 214100" src="https://github.com/user-attachments/assets/a6932d2c-f440-4658-a738-cf2553becafc" />
 
